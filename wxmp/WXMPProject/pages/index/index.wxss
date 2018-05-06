@@ -1,0 +1,45 @@
+/*
+    样式的使用：
+        1.如果需要动态改变样式，使用行内样式
+        2.小程序对弹性盒子支持非常好，建议使用
+        3.rpx相当与rem
+
+        一般设计给出的psd大小
+            640：iphone5  320px
+            720：iphone6  375px
+
+            640 = 640rpx
+*/
+
+page{
+    background-color: #fff;
+}
+
+.index-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-container .logo{
+    width: 392rpx;
+    height: 96rpx;
+    margin-top: 160rpx;
+}
+
+.index-container .username{
+    margin-top: 100rpx;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.index-container .btn{
+    border: 1px solid #109D59;
+    margin-top: 300rpx;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.index-container .btn text{
+    color: #109D59;
+}

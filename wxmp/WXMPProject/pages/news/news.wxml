@@ -1,0 +1,40 @@
+<import src="news-template/news-template.wxml" /> 
+
+<view class="news-container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}">
+    <swiper-item>
+      <image src="http://www.iwen.wiki/sxtstu/blueberrypaiMobile/image/indeximg/banner1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://www.iwen.wiki/sxtstu/blueberrypaiMobile/image/indeximg/banner2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://www.iwen.wiki/sxtstu/blueberrypaiMobile/image/indeximg/banner3.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <block wx:for="{{useData}}" wx:for-item="item" wx:key="key">
+  <!--
+    item = {
+       "newsid":0,
+        "authorIcon":"../images/head1.png",
+        "authorName":"iwen",
+        "authorDate":"2017/3/21"
+    }
+
+    ...item  
+        "newsid":0,
+        "authorIcon":"../images/head1.png",
+        "authorName":"iwen",
+        "authorDate":"2017/3/21"
+
+      newsid
+      authorIcon
+  
+  -->
+    <view bindtap="goNewsDetail" data-newsid="{{item.newsid}}">
+      <template is="newsTemplate" data="{{...item}}" />
+    </view>
+  </block>
+  
+</view>

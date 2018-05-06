@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<import src="index-template/index-template.wxml" />
+
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <block wx:for="{{hello}}" wx:for-item="item">
+
+    <!--
+
+      item = {
+        "demo":"hello,iwen1"
+      }
+
+      item.demo
+
+
+
+      ...item   "demo":"hello,iwen1"
+
+      demo
+    
+    -->
+
+        <template is="indexTemplate" data="{{...item}}"/>
+    </block>
+  </view>
+</view>
