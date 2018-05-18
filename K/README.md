@@ -50,7 +50,7 @@
     }
     ```
    | 属性 | 类型 | 必填 | 描述 |
-   | -------- | -------- | -------- | -------- |
+   | -------- | :--------: | :--------: | --------: |
    | pages | String Array | yes | 设置页面路径 |
    | window | Object | no | 设置默认页面的窗口表现 |
    | tabBar | Object | no | 设置底部tab的表现 |
@@ -71,7 +71,7 @@
     > 用于设置小程序的状态栏、导航条、标题、窗口背景色。
     
    | 属性 | 类型 | 默认值 | 描述 |
-   | -------- | -------- | -------- | -------- |
+   | -------- | :--------: | :--------: | --------: |
    | navigationBarBackgroundColor | 十六进制颜色值 | #000000 | 导航栏背景颜色，如"#000000" |
    | navigationBarTextStyle | String | white | 导航栏标题颜色，仅支持 black/white |
    | navigationBarTitleText | String |  | 	导航栏标题文字内容 |
@@ -92,9 +92,7 @@
         }
       }
    ```
-   
-   ![ss](https://mp.weixin.qq.com/debug/wxadoc/dev/image/config.jpg?t=2018516)
-   
+  
   ##### tabBar
   
    > 如果小程序是一个多 tab 应用（客户端窗口的底部或顶部有 tab 栏可以切换页面），可以通过 tabBar 配置项指定 tab 栏的表现，以及 tab 切换时显示的对      应页面
@@ -105,7 +103,7 @@
     2. tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序。
    
    | 属性 | 类型 | 必填 | 描述 |
-   | -------- | -------- | -------- | -------- |
+   | -------- | :--------: | :--------: | --------: |
    | color | 16进制颜色 | y | tab 上的文字默认颜色 |
    | selectedColor | HexColor | y | tab 上的文字选中时的颜色 |
    | list | String | y | tab 的列表，详见 list 属性说明，最少2个、最多5个 tab |
@@ -114,7 +112,7 @@
     
    > 其中 list 接受一个数组，数组中的每个项都是一个对象，其属性值如下：  
    | pagePath | String | yes | 页面路径，必须在 pages 中先定义 |
-   | ------------ | ------------ | ---------- | ---------- |
+   | -------- | :--------: | :--------: | --------: |
    | text | String | y | tab 上按钮文字 |
     
    ![sd](https://mp.weixin.qq.com/debug/wxadoc/dev/image/tabbar.png?t=2018516) 
