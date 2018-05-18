@@ -20,7 +20,7 @@
   
 ## 小程序（茶道网）销售项目
 
- ![主页](https://wx3.sinaimg.cn/mw690/a8bf8822ly1frfi1hgnj7j208x0fxjrr.jpg)
+<img src="https://wx3.sinaimg.cn/mw690/a8bf8822ly1frfi1hgnj7j208x0fxjrr.jpg"/>
   
   
  ### 框架
