@@ -120,11 +120,14 @@
 
     
  > 其中 list 接受一个数组，数组中的每个项都是一个对象，其属性值如下：  
+ 
    
  | pagePath | String | yes | 页面路径，必须在 pages 中先定义 |
  | -------- | :--------: | :--------: | --------: |
  | text | String | y | tab 上按钮文字 |
-    
+ | ..... | ..... | ...... | 详细看官网 |
+ 
+ 
  ![sd](https://mp.weixin.qq.com/debug/wxadoc/dev/image/tabbar.png?t=2018516) 
     
 ##### page.json
