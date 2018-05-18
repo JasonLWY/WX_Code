@@ -107,15 +107,16 @@
 ###### tip 
    
  1. 当设置 position 为 top 时，将不会显示 icon
- 2. tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序。
-   
- | 属性 | 类型 | 必填 | 描述 |
- | -------- | -------- | -------- | -------- |
- | color | 16进制颜色 | y | tab 上的文字默认颜色 |
- | selectedColor | HexColor | y | tab 上的文字选中时的颜色 |
- | list | String | y | tab 的列表，详见 list 属性说明，最少2个、最多5个 tab |
- | position | string | n | 可选值 bottom、top |
- | ..... | ..... | ..... | 详细看官网 |
+ 2. tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序
+ ###### 表格   
+   
+  | 属性 | 类型 | 必填 | 描述 |
+  | -------- | -------- | -------- | -------- |
+  | color | 16进制颜色 | y | tab 上的文字默认颜色 |
+  | selectedColor | HexColor | y | tab 上的文字选中时的颜色 |
+  | list | String | y | tab 的列表，详见 list 属性说明，最少2个、最多5个 tab |
+  | position | string | n | 可选值 bottom、top |
+  | ..... | ..... | ..... | 详细看官网 |
 
     
  > 其中 list 接受一个数组，数组中的每个项都是一个对象，其属性值如下：  
