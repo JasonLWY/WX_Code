@@ -29,7 +29,7 @@
  > 还在写........
  
 ## 代码细节介绍模块 
- <a href="">代码细节介绍目录</a>
+ <a href="https://github.com/JasonLWY/WX_Code/tree/master/daima">代码细节介绍目录</a>
 
  ### 框架
   1. <a href="https://github.com/JasonLWY/WX_Code/blob/master/K/README.md">框架</a>
