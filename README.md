@@ -1,8 +1,5 @@
-# WX_Code日记
+# 小程序日记
 
- > 第一个 小程序（小程序和vue类似写配置做设计 组件代码替换元素html文档的布局） <br>
-
-![第一个小程序](http://114.215.91.58/Blog//static/userImages/20180517/1526544475301007960.jpg) 
 ## 茶道友小程序UI界面
  
  > 小程序引用本地wxss本地图片报错
@@ -22,11 +19,11 @@
 
 #### 分类页面
 
-![页面](http://wx3.sinaimg.cn/mw690/a8bf8822ly1frj3a2t1y8j20ah0ingoe.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![页面](http://wx3.sinaimg.cn/mw690/a8bf8822ly1frj3a2t1y8j20ah0ingoe.jpg)
 
 #### 我的主页页面
 
-![页面](http://wx1.sinaimg.cn/mw690/a8bf8822ly1frj3a2t1rjj20ai0ilgn5.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![页面](http://wx1.sinaimg.cn/mw690/a8bf8822ly1frj3a2t1rjj20ai0ilgn5.jpg)
 
 ## 接口实现
  
