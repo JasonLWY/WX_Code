@@ -177,8 +177,21 @@
  -  如果在 bindchange 的事件回调函数中使用 setData 改变 current 值，则有可能导致 setData 被不停地调用，因而通常情况下请在改变 current 值前检测 source 字段来判断是否是由于用户触摸引起
  
  4. movable-view
+ > 可移动的视图容器，在页面中可以拖拽滑动
  
+ - movable-view必须在<movable-area/>组件中，并且必须是直接子节点，否则不能移动。
  5. cover-view
+ 
+ > 覆盖在原生组件之上的文本视图，可覆盖的原生组件包括map、video、canvas、camera，只支持嵌套cover-view、cover-image。
+ 
+ -少用
+ ###### cover-image
+ 
+ - 覆盖在原生组件之上的图片视图，可覆盖的原生组件同cover-view，支持嵌套在cover-view里。
+ 
+ -少用
+ 
+ 
  
  
  
