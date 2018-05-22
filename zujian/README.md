@@ -29,9 +29,10 @@
     </view>
    
    ```
+    -  如果需要使用滚动视图，请使用 scroll-view
     
  2. scrollview
-
+ 
  3. swiper
  
  4. movable-view
