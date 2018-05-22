@@ -29,7 +29,7 @@
     </view>
    
    ```
-    -  如果需要使用滚动视图，请使用 scroll-view
+   -  如果需要使用滚动视图，请使用 scroll-view
     
  2. scrollview
  
@@ -37,7 +37,7 @@
  | 属性名 | 类型 | 默认值 | 说明 |
  | ----- | ----- | ----- | ----- |
  | scroll-x | Boolean | false | 允许横向滚动 |
- | .....	| .... | .... | 其他特性看官网 |
+ | .....	| .... | .... | 其他特性看官网https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html |
  
  - 使用竖向滚动时，需要给<scroll-view/>一个固定高度，通过 WXSS 设置 height。
  
@@ -107,6 +107,74 @@
  - tip: 若要使用下拉刷新，请使用页面的滚动，而不是 scroll-view ，这样也能通过点击顶部状态栏回到页面顶部
  
  3. swiper
+ ##### 滑块视图容器
+ | 属性名 | 类型 | 默认值 | 说明 |
+ | ----- | ----- | ----- | ----- |
+ | indicator-dots | Boolean | false | 是否显示面板指示点	 |
+ | .....	| .... | .... | 其他特性看官网https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html |
+ 
+ ###### 从 1.4.0 开始，change事件返回detail中包含一个source字段，表示导致变更的原因，可能值如下：
+  - autoplay 自动播放导致swiper变化
+  - touch 用户划动引起swiper变化；
+  - 其他原因将用空字符串表示
+ 
+ - 其中只可放置<swiper-item/>组件，否则会导致未定义的行为。
+ 
+ ###### swiper-item
+  - 仅可放置在<swiper/>组件中，宽高自动设置为100%。
+  
+ ```
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <button bindtap="changeIndicatorDots"> indicator-dots </button>
+  <button bindtap="changeAutoplay"> autoplay </button>
+  <slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
+  <slider bindchange="durationChange" show-value min="1000" max="10000"/> duration
+ ```
+ 
+ ```
+  Page({
+  data: {
+    imgUrls: [
+      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+       ],
+       indicatorDots: false,
+       autoplay: false,
+       interval: 5000,
+       duration: 1000
+     },
+     changeIndicatorDots: function(e) {
+       this.setData({
+         indicatorDots: !this.data.indicatorDots
+       })
+     },
+     changeAutoplay: function(e) {
+       this.setData({
+         autoplay: !this.data.autoplay
+       })
+     },
+     intervalChange: function(e) {
+       this.setData({
+         interval: e.detail.value
+       })
+     },
+     durationChange: function(e) {
+       this.setData({
+         duration: e.detail.value
+       })
+     }
+   })
+ ```
+ 
+ -  如果在 bindchange 的事件回调函数中使用 setData 改变 current 值，则有可能导致 setData 被不停地调用，因而通常情况下请在改变 current 值前检测 source 字段来判断是否是由于用户触摸引起
  
  4. movable-view
  
