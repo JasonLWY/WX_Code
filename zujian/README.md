@@ -2,7 +2,7 @@
 
  1. view
  
- 2.scrollview
+ 2. scrollview
 
  3. swiper
  
