@@ -52,4 +52,8 @@
   4. <a href="">工具</a>
  ### 腾讯云支持
   5. <a href="">腾讯云支持</a>
+ ### 问题总结
+  <a href="https://github.com/JasonLWY/WX_Code/tree/master/note">微信开发问题总结</a>
+  
+  
   
