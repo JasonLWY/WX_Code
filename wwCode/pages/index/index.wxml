@@ -37,7 +37,7 @@
             <view class="swiperM">
               <swiper indicator-dots="{{indicatorDots}}"
                 autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
-                <block wx:for="{{imgUrls}}">
+                <block wx:for="{{imgUrls}}" wx:key="key">
                   <view bindtap='notouchme'>
                     <swiper-item>
                       <image src="{{item}}" class="slide-image" style="height:322rpx; width:750rpx;"/>
@@ -51,28 +51,76 @@
                   <text class="tj-name">Tronker推荐</text>
                 </view>
                 <view class="wrap-list">
-                  <block wx:for="{{img}}">
+                  <block wx:for="{{img}}" wx:key="key">
                     <view class="Item" bindtap='notouchme'>
                       <image src='{{item}}' class="TJimage"></image>
                     </view>
                   </block>
                 </view>
             </view>
-
+            <!--start爆款推荐-->
             <view class="Bursting">
-                <view class="TronkerYJ-title">
-                  <text class="tj-name">爆款推荐</text>
+                  <view class="TronkerYJ-title">
+                    <text class="tj-name">爆款推荐</text>
+                  </view>
+                  <block wx:for="{{bursting}}" wx:for-item="item" wx:key="key">
+                  <view class="item2 test1">
+                    <text class="item-title">爆款</text>
+                    <image src='{{item.DefaultPicSrc}}'></image>
+                    <text class="ProductName">{{item.ProductSlogan}}</text>
+                    <text class="ProductSlogan">{{item.ProductDesc}}</text>
+                    <text class="Price">￥{{item.Price}}元</text>
+                  </view>
+                  </block>
                 </view>
-                <view class="item2"></view>
-                <view class="item2"></view>
-                <view class="item2"></view>
-                <view class="item2"></view>
-                <view class="item2"></view>
-                <view class="item2"></view>
+           </view>
+           <!--end-爆款推荐  -->
+
+            <!--特时推荐  -->
+            <view class="timeTJ">
+              <image src='http://img.tea7.com/0094408_0.jpeg'></image>
             </view>
-        </view>
+            <!--end特使推荐  -->
+           <!--start-nav展示-->
+            <view class="scroll_box nav-wrap"> 
+                <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+                  <view class="item_list nav-list">
+                    <!-- <view class="item_book_text select">龙井</view> -->
+                    <block wx:for="{{navList}}" wx:key="{{key}}" wx:for-item="item">
+                    <view class="item_book_text nav-item" bindtap='notouchme'>
+                        <image src='{{item.DefaultPicSrc}}'></image>
+                        <text class="des">{{item.ProductName}}</text>
+                        <text class="navPrice">￥{{item.Price}}元</text>
+                    </view>
+                    </block>
+                  </view>
+                </scroll-view>
+            </view>
+            <!--end nav展示  -->
+            <!--口味推荐  -->
+            <view class="love"> 
+                  <view class="TronkerYJ-title">
+                    <text class="tj-name">口味推荐</text>
+                  </view>
+                  <view class="item_list2">
+                    <block wx:for="{{loveList}}" wx:for-item="item" wx:key="key">
+                      <view class="body">
+                        <view class="img"> 
+                            <image src='{{item.DefaultPicSrc}}'></image>
+                        </view>
+                        <view class="shogDes">
+                          <text class="des">{{item.ProductName}}</text>
+                        </view>
+                        <view class="showPrice">
+                          <text class="price">¥{{item.Price}}元</text>
+                        </view>
+                      </view> 
+                    </block> 
+                  </view>
+            </view>
+
+            <!--end-->
       </scroll-view>
     </view>
-  </view>   
-
+  </view>     
 </scroll-view>

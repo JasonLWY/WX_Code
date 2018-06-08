@@ -1,6 +1,9 @@
 //index.js
 //获取应用实例
 const app = getApp()
+const burstingData = require('../data/bursting.js');
+const navData = require('../data/nav.js');
+const loveList = require('../data/love.js');
 Page({
   data: {
     motto: 'Tronker',
@@ -23,7 +26,10 @@ Page({
       'http://img.tea7.com/0017244_0.jpeg?x-oss-process=image/resize,w_720/quality,q_60',
       'http://img.tea7.com/0049319_0.jpeg?x-oss-process=image/resize,w_720/quality,q_60',
       'http://img.tea7.com/0017249_0.jpeg?x-oss-process=image/resize,w_720/quality,q_60'
-    ]
+    ],
+    bursting:[],
+    navList:[],
+    loveList:[]
   },
   ToSearch: function () {
     wx.navigateTo({
@@ -61,8 +67,16 @@ Page({
     })
   },
   onLoad: function () {
-  
-
+    var _that = this;
+    _that.setData({
+      bursting: burstingData.bursting
+    })
+    _that.setData({
+      navList: navData.navList
+    })
+    _that.setData({
+      loveList: loveList.loveList
+    })
   },
   getUserInfo: function(e) {
     console.log(e)

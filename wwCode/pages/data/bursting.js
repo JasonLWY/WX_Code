@@ -1,0 +1,108 @@
+var bursting = [{
+  "ProductId": 2999,
+  "ProductSku": "T46903A007",
+  "ProductName": "十大名茶 绿茶 靠谱 远致碧螺春1號250g 高性价比",
+  "ProductSlogan": "鲜爽甘醇，韵味悠长",
+  "ProductDesc": "白毫显露 口感鲜爽甘醇 韵味悠长 花果香浓郁",
+  "StockQuantity": 10000,
+  "IsSoldOut": false,
+  "SaleVolume": 189,
+  "Price": 68.0000,
+  "OldPrice": 128.0000,
+  "PublicityPicUrl": null,
+  "DefaultPicSrc": "http://img.tea7.com/0052268_0.jpeg?x-oss-process=image/resize,w_300"
+}, {
+  "ProductId": 3008,
+  "ProductSku": "T47003A011",
+  "ProductName": "历史名茶 绿茶 黄山毛峰 远致黄山毛峰1號铁罐180克 高性价比",
+  "ProductSlogan": "口感鲜爽，有板栗香,性价比超高",
+  "ProductDesc": "口感鲜爽，有板栗香,性价比超高",
+  "StockQuantity": 10000,
+  "IsSoldOut": false,
+  "SaleVolume": 75,
+  "Price": 58.0000,
+  "OldPrice": 118.0000,
+  "PublicityPicUrl": null,
+  "DefaultPicSrc": "http://img.tea7.com/0052311_0.jpeg?x-oss-process=image/resize,w_300"
+}, {
+  "ProductId": 3016,
+  "ProductSku": "T47701A002",
+  "ProductName": "绿茶-安吉 白茶 明前黄金芽100g装",
+  "ProductSlogan": "春茶 清明 黄金芽 香浓味醇",
+  "ProductDesc": "2018新茶，高山茶，鲜醇甘甜",
+  "StockQuantity": 10000,
+  "IsSoldOut": false,
+  "SaleVolume": 10,
+  "Price": 258.0000,
+  "OldPrice": 389.0000,
+  "PublicityPicUrl": null,
+  "DefaultPicSrc": "http://img.tea7.com/0053312_0.jpeg?x-oss-process=image/resize,w_300"
+}, {
+  "ProductId": 3022,
+  "ProductSku": "T47403A008",
+  "ProductName": "【2018年春茶】雨前太平猴魁125g-鲜爽甘甜",
+  "ProductSlogan": "2018年春茶上市",
+  "ProductDesc": "2018年春茶上市",
+  "StockQuantity": 10000,
+  "IsSoldOut": false,
+  "SaleVolume": 224,
+  "Price": 99.0000,
+  "OldPrice": 158.0000,
+  "PublicityPicUrl": "http://img.tea7.com/0052681_0.jpeg?x-oss-process=image/resize,w_300",
+  "DefaultPicSrc": "http://img.tea7.com/0052219_0.jpeg?x-oss-process=image/resize,w_300"
+}, {
+  "ProductId": 3015,
+  "ProductSku": "T46902A005",
+  "ProductName": "十大名茶 绿茶 远致碧螺春2號150g 简盒 鲜爽甘醇",
+  "ProductSlogan": "鲜醇爽口花果香迷人",
+  "ProductDesc": "白毫显露 口感鲜爽甘醇 韵味悠长 花果香浓郁",
+  "StockQuantity": 10000,
+  "IsSoldOut": false,
+  "SaleVolume": 64,
+  "Price": 88.0000,
+  "OldPrice": 168.0000,
+  "PublicityPicUrl": "http://img.tea7.com/0052682_0.jpeg?x-oss-process=image/resize,w_300",
+  "DefaultPicSrc": "http://img.tea7.com/0052275_0.jpeg?x-oss-process=image/resize,w_300"
+}, {
+  "ProductId": 2997,
+  "ProductSku": "T46803A016",
+  "ProductName": "名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比",
+  "ProductSlogan": "春茶，条索匀整香气浓 ",
+  "ProductDesc": "2018年春茶 正宗龙井 条索匀整 香气浓郁 ",
+  "StockQuantity": 10000,
+  "IsSoldOut": false,
+  "SaleVolume": 533,
+  "Price": 68.0,
+  "OldPrice": 98.0,
+  "PublicityPicUrl": "http://img.tea7.com/0052679_0.jpeg?x-oss-process=image/resize,w_300",
+  "DefaultPicSrc": "http://img.tea7.com/0052230_0.jpeg?x-oss-process=image/resize,w_300"
+}, {
+  "ProductId": 2819,
+  "ProductSku": "T10502A008",
+  "ProductName": "漳平水仙-私房茶特级清香型礼盒300g-茶中仙子兰花香",
+  "ProductSlogan": null,
+  "ProductDesc": null,
+  "StockQuantity": 0,
+  "IsSoldOut": true,
+  "SaleVolume": 44,
+  "Price": 206.0000,
+  "OldPrice": 0.0000,
+  "PublicityPicUrl": null,
+  "DefaultPicSrc": "http://img.tea7.com/0036055_0.jpeg?x-oss-process=image/resize,w_300"
+}, {
+  "ProductId": 2414,
+  "ProductSku": "T20102A035",
+  "ProductName": "礼盒装 金骏眉 龙凤呈祥双瓷罐300g（含提袋）",
+  "ProductSlogan": null,
+  "ProductDesc": null,
+  "StockQuantity": 10000,
+  "IsSoldOut": false,
+  "SaleVolume": 223,
+  "Price": 322.0000,
+  "OldPrice": 598.0000,
+  "PublicityPicUrl": null,
+  "DefaultPicSrc": "http://img.tea7.com/0013467_0.jpeg?x-oss-process=image/resize,w_300"
+}]
+module.exports = {
+  bursting:bursting
+}
