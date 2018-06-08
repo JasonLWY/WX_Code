@@ -1,0 +1,31 @@
+<scroll-view class='wrap'>
+  <view class="own-top">
+      <button bindtap='bindViewTap33'>用户Tronker中心</button>
+  </view>
+  <view class="own-part"> 
+    <text>个人中心</text>
+  </view>
+  <view class="collection" hover-class='Cactive'>
+    我的收藏
+  </view>
+  <view class='address' hover-class='Cactive'>
+    地址管理
+  </view>
+  <view class="own-part2"> 
+    <text>优惠福利</text>
+  </view>
+  <view class="coupon" hover-class='Cactive'>
+    优惠券
+  </view>
+  <view class="own-part3"> 
+    <text>专属服务</text>
+  </view>
+  <view>
+    <view class="customerService" hover-class='Cactive'>
+      我的客服
+    </view>
+    <view class="suggestions" hover-class='Cactive'>
+      意见箱
+    </view>
+  </view>
+</scroll-view>

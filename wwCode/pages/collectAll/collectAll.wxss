@@ -1,0 +1,82 @@
+/* pages/collectAll/collectAll.wxss */
+.wrap{
+  background-color: #F5F5F5;
+  /* height: 160%; */
+}
+.select {
+    font-weight: bold;
+    color: #b0352f;
+    height:85rpx;
+    border-bottom:6rpx solid #b0352f;
+}
+.scroll_box2{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.item_list2{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.body {
+  width: 45%;
+  height: 512rpx;
+   float: left; 
+  margin-top: 10rpx;
+  background: #ffffff;
+  padding: 10rpx;
+  margin-left: 12rpx;
+}
+.img {
+  float: left;
+  width: 360rpx;    
+  height: 360rpx;
+}
+.img image {
+  width:340rpx;
+  height: 360rpx;
+}
+.shogDes {
+  float: left;
+}
+.showPrice {
+  float: left;
+}
+.des {
+    font-size: 30rpx;
+    color: #333;
+    display: -webkit-box;
+    margin-top: 20rpx;
+}
+.price {
+  display: inline-block;
+  color: #b0352f;
+  margin-top: 8px;
+}
+
+.scroll_box{
+width: 100%;
+height: 66rpx;
+overflow: hidden;
+padding: 20rpx;
+background: #fff;
+white-space: nowrap;
+}
+.item_list{
+width: 160rpx;
+height: auto;
+margin-right: 20rpx;
+display: inline-block;
+}
+.item_book_text {
+  display: inline-block;
+  height: 74rpx;
+  margin-left: 26rpx;
+  font-size: 35rpx;
+}
+.nothing {
+  width: 100%;
+  height: 40rpx;
+}

@@ -1,0 +1,145 @@
+<scroll-view class="wrap"> 
+<view class="wrap-top">
+  <view class="scroll_box"> 
+      <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+        <view class="item_list">
+          <view class="item_book_text select">龙井</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+          <view class="item_book_text" bindtap='notouchme'>龙井</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+          <view class="item_book_text" bindtap='notouchme'>龙井</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+          <view class="item_book_text" bindtap='notouchme'>龙井</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+          <view class="item_book_text" bindtap='notouchme'>龙井</view>
+          <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+          <view class="item_book_text" style='width:10rpx; height:100%;'></view>
+        </view>
+      </scroll-view>
+    </view>
+</view>
+<view class="scroll_box2">
+  <scroll-view class="scroll-view_y" scroll-y style="width: auto;overflow:hidden;">
+     <view class="item_list2">
+          <view class="body">
+            <view class="img"> 
+                <image src='http://img.tea7.com/0052230_0.jpeg?x-oss-process=image/resize,w_300'></image>
+            </view>
+            <view class="shogDes">
+              <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+            </view>
+            <view class="showPrice">
+              <text class="price">¥68.00</text>
+            </view>
+        </view> 
+        <view class="body">
+          <view class="img"> 
+              <image src='http://img.tea7.com/0052195_0.jpeg?x-oss-process=image/resize,w_300'></image>
+          </view>
+          <view class="shogDes">
+            <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+          </view>
+          <view class="showPrice">
+            <text class="price">¥68.00</text>
+          </view>
+        </view> 
+        <view class="body">
+          <view class="img"> 
+              <image src='http://img.tea7.com/0004722_0.jpeg?x-oss-process=image/resize,w_300'></image>
+          </view>
+          <view class="shogDes">
+            <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+          </view>
+          <view class="showPrice">
+            <text class="price">¥68.00</text>
+          </view>
+        </view> 
+        <view class="body">
+          <view class="img"> 
+              <image src='http://img.tea7.com/0011233_0.jpeg?x-oss-process=image/resize,w_300'></image>
+          </view>
+          <view class="shogDes">
+            <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+          </view>
+          <view class="showPrice">
+            <text class="price">¥68.00</text>
+          </view>
+        </view> 
+        <view class="body">
+          <view class="img"> 
+              <image src='http://img.tea7.com/0068091_0.jpeg?x-oss-process=image/resize,w_300'></image>
+          </view>
+          <view class="shogDes">
+            <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+          </view>
+          <view class="showPrice">
+            <text class="price">¥68.00</text>
+          </view>
+        </view> 
+        <view class="body">
+            <view class="img"> 
+                <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
+            </view>
+            <view class="shogDes">
+              <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+            </view>
+            <view class="showPrice">
+              <text class="price">¥68.00</text>
+            </view>
+         </view> 
+          <view class="body">
+            <view class="img"> 
+                <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
+            </view>
+            <view class="shogDes">
+              <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+            </view>
+            <view class="showPrice">
+              <text class="price">¥68.00</text>
+            </view>
+         </view> 
+          <view class="body">
+            <view class="img"> 
+                <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
+            </view>
+            <view class="shogDes">
+              <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+            </view>
+            <view class="showPrice">
+              <text class="price">¥68.00</text>
+            </view>
+         </view> 
+          <view class="body">
+            <view class="img"> 
+                <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
+            </view>
+            <view class="shogDes">
+              <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+            </view>
+            <view class="showPrice">
+              <text class="price">¥68.00</text>
+            </view>
+         </view> 
+          <view class="body">
+            <view class="img"> 
+                <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
+            </view>
+            <view class="shogDes">
+              <text class="des">名茶之首 绿茶  靠谱 远致龙井1號铁罐250g 高性价比</text>
+            </view>
+            <view class="showPrice">
+              <text class="price">¥68.00</text>
+            </view>
+         </view> 
+      </view>
+       <view class="nothing"></view>
+  </scroll-view>
+ </view>
+</scroll-view>

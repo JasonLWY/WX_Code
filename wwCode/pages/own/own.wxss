@@ -1,0 +1,95 @@
+.wrap {
+  background: #f5f5f5;
+  height: 100%;
+}
+.own-top {
+  height: 314rpx;
+  background-color: #D86037;
+}
+.own-top button {
+  display: inline-block;
+  height: 66rpx;
+  width: 288rpx;
+  line-height: 66rpx;
+  background-color: #FBAC05;
+  font-size: 30rpx;
+  margin-left:33%;
+  margin-top: 20%;
+}
+.own-part {
+  height: 86rpx;
+  width: 100%;
+  background-color:#ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  color: #D5C6BC;
+  padding-left: 25rpx;
+}
+.own-part2{
+  height: 86rpx;
+  width: 100%;
+  background-color:#ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  color: #D5C6BC;
+  padding-left: 25rpx;
+  margin-top: 16rpx;
+}
+.own-part3 {
+  height: 86rpx;
+  width: 100%;
+  background-color:#ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  color: #D5C6BC;
+  padding-left: 25rpx;
+  margin-top: 16rpx;
+}
+.collection{
+  width: 100%;
+  height: 86rpx;
+  margin-top: 2rpx;
+  background-color: #ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  padding-left: 60rpx;
+}
+.address {
+  width: 100%;
+  height: 86rpx;
+  margin-top: 2rpx;
+  background-color: #ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  padding-left: 60rpx;
+}
+.coupon {
+  width: 100%;
+  height: 86rpx;
+  margin-top: 2rpx;
+  background-color: #ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  padding-left: 60rpx;
+}
+.customerService{
+  width: 100%;
+  height: 86rpx;
+  margin-top: 2rpx;
+  background-color: #ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  padding-left: 60rpx;
+}
+.suggestions {
+  width: 100%;
+  height: 86rpx;
+  margin-top: 2rpx;
+  background-color: #ffffff;
+  line-height: 86rpx;
+  font-size: 27rpx;
+  padding-left: 60rpx;
+}
+.Cactive {
+  background-color: #E5D5CF;
+}

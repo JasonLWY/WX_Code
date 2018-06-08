@@ -1,0 +1,188 @@
+<view class="wrap">
+  <view class="search">
+    <input disabled placeholder='搜索' placeholder-class="placeholder" bindtap='ToSearch'></input>
+  </view>
+ <view class='list1'>
+  <scroll-view class='list-left'>
+    <view class='wrap-list-left'>
+      <view class="active">推荐</view>
+      <view hover-class='active' bindtap='notouchme'>绿茶</view>
+      <view hover-class='active' bindtap='notouchme'>红茶</view>
+      <view bindtap='notouchme' hover-class='active'>白茶</view>
+      <view bindtap='notouchme' hover-class='active'>花茶</view>
+      <view bindtap='notouchme' hover-class='active'>乌龙</view>
+      <view bindtap='notouchme' hover-class='active'>普洱</view>
+      <view class="" bindtap='notouchme' hover-class='active'>茶具</view>
+    </view>
+  </scroll-view>
+  <view class="list-right">
+  <view class="scroll_box2">
+    <scroll-view class="scroll-view_y" scroll-y style="width: auto;overflow:hidden;">
+      <view class="item_list2">
+
+      <view class="list-right-swrap">
+      <view class="title">
+        推荐
+    </view>
+    <view class="list">
+      <view bindtap='navigetColl'>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        测试点我
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        别点我
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011446_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        别点我
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        别点我
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011479_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        别点我
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        别点我
+      </view>
+    </view>
+  </view>
+  
+   <view class="list-right-swrap">
+      <view class="title">
+        白茶
+    </view>
+    <view class="list">
+      <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011446_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011479_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+    </view>
+  </view>
+
+   <view class="list-right-swrap">
+      <view class="title">
+        白茶
+    </view>
+    <view class="list">
+      <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011446_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011479_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+    </view>
+  </view>
+
+   <view class="list-right-swrap">
+      <view class="title">
+        白茶
+    </view>
+    <view class="list">
+      <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011446_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011479_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+    </view>
+  </view>
+  
+   <view class="list-right-swrap">
+      <view class="title">
+        红茶
+    </view>
+    <view class="list">
+      <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+      <view>
+        <image src='http://img.tea7.com/0011446_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011450_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011479_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+       <view>
+        <image src='http://img.tea7.com/0011445_0.jpeg?x-oss-process=image/resize,w_150'></image>
+        铁观音
+      </view>
+    </view>
+  </view>
+  <view class="nothing"></view>
+      </view>
+    </scroll-view>  
+  </view>
+  </view>
+ </view>
+</view>

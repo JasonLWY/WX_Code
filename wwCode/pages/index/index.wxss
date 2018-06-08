@@ -1,0 +1,144 @@
+.containter{
+  width: 100%;
+}
+.wrap {
+  width: 100%;
+}
+.search {
+  height: 86rpx;
+  background: #F67542;
+  line-height: 124rpx;
+  position: relative;
+}
+.search input {
+  background-color: #FFFFFF;
+  display: inline-block;
+  border-radius: 20rpx;
+  padding-left: 46rpx;
+  font-size: 13px;
+  height: 68rpx;
+  /* margin-left:42%; */
+  position: absolute;
+  left: 42%;
+  top: 10rpx;
+}
+.placeholder {
+  font-size: 13px;
+}
+.title {
+  position: absolute;
+  font-size: 32rpx;
+  display: inline-block;
+  left: 42rpx;
+  bottom: -18rpx;
+  
+}
+.nav-tap{
+  height: 106rpx;
+  width: 100%;
+  background-color: skyblue;
+  border-bottom: 1px solid silver;
+}
+.scroll_box{
+width: 100%;
+height: 66rpx;
+overflow: hidden;
+padding: 20rpx;
+background: #fff;
+white-space: nowrap;
+}
+.item_list{
+width: 160rpx;
+height: auto;
+margin-right: 20rpx;
+display: inline-block;
+}
+.item_book_text {
+  display: inline-block;
+  height: 73rpx;
+   margin-left: 30rpx; 
+  font-size: 35rpx;
+}
+.select {
+    font-weight: bold;
+    color: #b0352f;
+    height:72rpx;
+    border-bottom:6rpx solid #b0352f;
+}
+.item_book_text:nth-of-type(1) {
+  margin-left: 0rpx;
+}
+.list1 {
+  flex: 1;
+  position: relative;
+}
+
+.scroll_box2{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.item_list2{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.swiperM{
+  width: 100%;
+  height: 322rpx;
+}
+.swiperM swiper {
+  width: 100%;
+  height: 322rpx;
+}
+
+/* //推荐 */
+.TronkerTJ {
+  width: 100%;
+  height: 520rpx;
+  background-color: #FFFFFF;
+  margin-top: 12rpx;
+}
+.TronkerYJ-title{
+  height: 80rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+.Item {
+  float: left;
+  margin-left: 10rpx;
+}
+.TJimage{
+  display: inline-block;
+  width: 360rpx;
+  height: 232rpx;
+}
+/*  */
+
+/*爆款  */
+  .Bursting{
+   width: 100%;
+   height: auto;
+   margin-top: 54rpx;
+  }
+  .Bursting-wrap {
+    height: 120rpx;
+    /* text-align: center */
+  }
+  .Bursting-title {
+    height: 100%;
+  }
+  .Bursting-name{
+   display: block;
+   float: left;
+   margin-left: 41%;
+   margin-top: 18rpx;
+  }
+  .item2 {
+    height: 290rpx;
+    width: 100%;
+    background: #F3F3F3;
+    margin-bottom: 16rpx;
+  }
+/*  */

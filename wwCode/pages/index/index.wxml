@@ -1,0 +1,78 @@
+<!--index.wxml-->
+<scroll-view class="wrap"> 
+  <view class="search">
+      <text class='title'>Tronker茶道</text>
+      <input disabled placeholder='搜索' placeholder-class="placeholder" bindtap='ToSearch'></input>
+  </view>
+  <view class="nav-tap"> 
+    <view class="scroll_box"> 
+        <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+          <view class="item_list">
+            <view class="item_book_text select">龙井</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+            <view class="item_book_text" bindtap='notouchme'>龙井</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+            <view class="item_book_text" bindtap='notouchme'>龙井</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+            <view class="item_book_text" bindtap='notouchme'>龙井</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
+            <view class="item_book_text" bindtap='notouchme'>龙井</view>
+            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text" style='width:10rpx; height:100%;'></view>
+          </view>
+        </scroll-view>
+    </view>
+  </view>
+  <view class="list1">
+     <view class="scroll_box2">
+      <scroll-view class="scroll-view_y" scroll-y style="width: auto;overflow:hidden;" upper-threshold>
+        <view class="item_list2">
+            <view class="swiperM">
+              <swiper indicator-dots="{{indicatorDots}}"
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+                <block wx:for="{{imgUrls}}">
+                  <view bindtap='notouchme'>
+                    <swiper-item>
+                      <image src="{{item}}" class="slide-image" style="height:322rpx; width:750rpx;"/>
+                    </swiper-item>
+                  </view>
+                </block>
+              </swiper>
+            </view>
+            <view class="TronkerTJ">
+                <view class="TronkerYJ-title">
+                  <text class="tj-name">Tronker推荐</text>
+                </view>
+                <view class="wrap-list">
+                  <block wx:for="{{img}}">
+                    <view class="Item" bindtap='notouchme'>
+                      <image src='{{item}}' class="TJimage"></image>
+                    </view>
+                  </block>
+                </view>
+            </view>
+
+            <view class="Bursting">
+                <view class="TronkerYJ-title">
+                  <text class="tj-name">爆款推荐</text>
+                </view>
+                <view class="item2"></view>
+                <view class="item2"></view>
+                <view class="item2"></view>
+                <view class="item2"></view>
+                <view class="item2"></view>
+                <view class="item2"></view>
+            </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>   
+
+</scroll-view>

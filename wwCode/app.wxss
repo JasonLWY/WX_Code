@@ -1,0 +1,17 @@
+/**app.wxss**/
+page {
+  height: 100%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+   /* background: url('../timg.jpg') no-repeat; */
+   background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&  sec=1526561269719&di=ec1436e98b4d1cc5b5c23cff848cc14a&imgtype=0&src=http%3A%2F%2Fimg.it610.com%2Fimage%2Fproduct%2F4c71f1f92aa84492bcac55ef92b03c16.gif');  
+  /* background-image: url('imgs/timg.jpg');  */
+  background-size: 100% 100%;
+}

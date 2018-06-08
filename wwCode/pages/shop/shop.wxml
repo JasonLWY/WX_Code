@@ -1,0 +1,375 @@
+<view class="wrap" wx:for="{{list}}" wx:for-index="key">
+<!--没有购物的情况  -->
+<view class='{{item.show == true?"hide":"show"}}'>
+  <view class="no-shopping">
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526978252442&di=84867e82cdee2a57d10dd7cb62940b00&imgtype=0&src=http%3A%2F%2Frescdn.lecake.com%2Fshop%2Flecake%2Ftheme%2Fxth2%2Ftpls%2Fwechat%2Fimages_new%2Fcart%2Fno-content.png'></image>
+      <button bindtap="bindViewTap3">去逛逛</button>
+  </view>
+</view>
+  <!--有购物的情况-->
+  <view class='{{item.show == true?"show":"hide"}}'>
+  <view class="scroll_box"> 
+    <view class='shop-list'>
+     
+      <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+      <view class="item_list">
+          <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+              <image src='http://img.tea7.com/0052268_0.jpeg?x-oss-process=image/resize,w_300'></image>
+              <text class="title">Tronker碧螺春</text>
+              <text class="price">¥{{Allprice}}</text>
+                <view class="num">
+                    <text bindtap='reduceCount'>-</text>
+                    <text>{{count}}</text>
+                  <text bindtap='addCount'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+          <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+
+           <view class="list-item">
+            <swiper display-multiple-items="2" id="sliderr">
+              <swiper-item>
+              </swiper-item>
+              <swiper-item class="list-item" id="list-item">
+                <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+                <!--
+                      wx:for遍历接口数据中，wx根据index 找到当前item的isTrue决定显示与否
+                  -->
+              <image src='http://img.tea7.com/0041938_0.jpeg?x-oss-process=image/resize,w_500'></image>
+              <text class="title">Tronker肉桂</text>
+              <text class="price">¥150</text>
+                <view class="num">
+                    <text bindtap='addCount1'>-</text>
+                    <text>1</text>
+                    <text bindtap='addCount1'>+</text>
+                </view>
+              </swiper-item>
+              <swiper-item class="delete">
+                  <text bindtap='delete1' style='display:block;'>删除</text>
+              </swiper-item>
+            </swiper>
+          </view>
+           <view class="list-item nothing">
+            
+           </view>
+       </view>
+    </scroll-view>
+
+          <!-- <view class="list-item">
+          <swiper display-multiple-items="2" id="sliderr">
+            <swiper-item>
+            </swiper-item>
+            <swiper-item class="list-item" id="list-item">
+              <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+            <image src='http://img.tea7.com/0012988_0.jpeg?x-oss-process=image/resize,w_500'></image>
+            <text class="title">Tronker铁观音</text>
+            <text class="price">¥360</text>
+              <view class="num">
+                  <text>-</text>
+                  <text>1</text>
+                  <text>+</text>
+              </view>
+            </swiper-item>
+            <swiper-item class="delete">
+                删除
+            </swiper-item>
+           </swiper>
+        </view>
+        <view class="list-item">
+          <swiper display-multiple-items="2" id="sliderr">
+            <swiper-item>
+            </swiper-item>
+            <swiper-item class="list-item" id="list-item">
+             <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+            <image src='http://img.tea7.com/0015675_0.jpeg?x-oss-process=image/resize,w_500'></image>
+            <text class="title">Tronker凝露蜜芽</text>
+            <text class="price">¥112</text>
+              <view class="num">
+                  <text>-</text>
+                  <text>1</text>
+                  <text>+</text>
+              </view>
+            </swiper-item>
+            <swiper-item class="delete">
+                删除
+            </swiper-item>
+           </swiper>
+        </view>
+        <view class="list-item">
+          <swiper display-multiple-items="2" id="sliderr">
+            <swiper-item>
+            </swiper-item>
+            <swiper-item class="list-item" id="list-item">
+            <icon type="success" size="22" color='{{color}}' bindtap='changColor' data-select="{isTrue}"/>
+            <image src='http://img.tea7.com/0017170_0.jpeg?x-oss-process=image/resize,w_500'></image>
+            <text class="title">Tronker漳平水仙</text>
+            <text class="price">¥4400</text>
+              <view class="num">
+                  <text>-</text>
+                  <text>1</text>
+                  <text>+</text>
+              </view>
+            </swiper-item>
+            <swiper-item class="delete">
+                删除
+            </swiper-item>
+           </swiper>
+        </view> -->
+      </view>       
+      </view>
+  </view>
+  </view>
+  <view class="bar-fixed"> 
+    <view class="yuan2"></view>
+    <text class="allselect">全选</text>
+    <text class="allprice">总价:</text>  
+    <text class="priceNum">¥70</text>
+    <view class="jiesuan" bindtap='showItem'>测试购物项</view>
+  </view>

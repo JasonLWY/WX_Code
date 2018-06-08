@@ -1,0 +1,4 @@
+<view class="wrap" bindtap='notouchme'>
+  <image src='http://wx4.sinaimg.cn/mw690/a8bf8822ly1frfhrlt9nkj20af7mhb2a.jpg'></image>
+  <!-- <image src='http://wx2.sinaimg.cn/mw690/a8bf8822ly1frfhrkq2fuj20af01jjrk.jpg'></image> -->
+</view>
