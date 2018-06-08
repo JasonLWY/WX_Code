@@ -37,11 +37,11 @@
 
 ## 接口实现
  
- > php还在写.......
+ > php大神菜开始设计.......
  
 ## 功能模块
 
- > 还在写........
+ > php大神菜开始设计........
  
 ## 代码细节介绍模块 
  <a href="https://github.com/JasonLWY/WX_Code/tree/master/daima">代码细节介绍目录</a>
