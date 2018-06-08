@@ -46,6 +46,30 @@
                 </block>
               </swiper>
             </view>
+            <!--类型  -->
+              <view class="Type"> 
+                <view>
+                  <image src="http://imgcon.tea7.com/6363743876200428263577206.png"></image>
+                  <text>自饮茶</text>
+                </view>
+                 <view>
+                  <image src="http://imgcon.tea7.com/6363743876136364412448843.png"></image>
+                  <text>茶具</text>
+                </view>
+                 <view>
+                  <image src="http://imgcon.tea7.com/6363743876164490164235224.png"></image>
+                  <text>茶礼盒</text>
+                </view>
+                 <view>
+                  <image src="http://imgcon.tea7.com/6363743876147303652949610.png"></image>
+                  <text>领福利</text>
+                </view>
+                 <view>
+                  <image src="http://imgcon.tea7.com/6366085324327706652770939.png"></image>
+                  <text>优惠卷</text>
+                </view>
+              </view>
+            <!--end  -->
             <view class="TronkerTJ">
                 <view class="TronkerYJ-title">
                   <text class="tj-name">Tronker推荐</text>
