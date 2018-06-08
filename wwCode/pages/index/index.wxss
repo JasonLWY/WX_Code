@@ -102,7 +102,10 @@ display: inline-block;
   width: 100%;
   height: 520rpx;
   background-color: #FFFFFF;
-  margin-top: 12rpx;
+  margin-top: 20rpx;
+}
+.wrap-list {
+  overflow: hidden;
 }
 .TronkerYJ-title{
   height: 80rpx;
@@ -112,19 +115,52 @@ display: inline-block;
 .Item {
   float: left;
   margin-left: 10rpx;
+  position: relative;
 }
 .TJimage{
   display: inline-block;
   width: 360rpx;
   height: 232rpx;
 }
+.TJ-item-title {
+  display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 20rpx;
+    z-index: 2;
+    font-size: 30rpx;
+    color: #FFFFFF;
+    width: 86rpx;
+    height: 51rpx;
+    background: #D4C0A7;
+    text-align: center;
+    line-height: 57rpx;
+    border-radius: 0 0 8px 8px;
+    padding: 10rpx;
+}
 /*  */
+/*time推荐1  */
+.timeTJ1 {
+  /* display: block; */
+   height: 282rpx;
+  background: #ffffff;
+  width: 100%;
+  margin: 16rpx 0 8rpx 0;
+  margin-top:56rpx;
+
+}
+.timeTJ1 image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*end  */
 
 /*爆款  */
   .Bursting{
    width: 100%;
    height: auto;
-   margin-top: 54rpx;
+   margin-top: 30rpx;
   }
   .Bursting-wrap {
     height: 120rpx;

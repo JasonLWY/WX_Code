@@ -53,11 +53,18 @@
                 <view class="wrap-list">
                   <block wx:for="{{img}}" wx:key="key">
                     <view class="Item" bindtap='notouchme'>
+                      <text class="TJ-item-title">专辑</text>
                       <image src='{{item}}' class="TJimage"></image>
                     </view>
                   </block>
                 </view>
             </view>
+             <!--特时推荐  -->
+            <view class="timeTJ1">
+              <image src='http://imgcon.tea7.com/6363814305699398322005058.jpg'></image>
+            </view>
+            <!--end特使推荐  -->
+
             <!--start爆款推荐-->
             <view class="Bursting">
                   <view class="TronkerYJ-title">
@@ -77,7 +84,7 @@
            <!--end-爆款推荐  -->
 
             <!--特时推荐  -->
-            <view class="timeTJ">
+            <view class="timeTJ1">
               <image src='http://img.tea7.com/0094408_0.jpeg'></image>
             </view>
             <!--end特使推荐  -->
