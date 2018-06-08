@@ -55,6 +55,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  toDetail: function() {
+    wx.navigateTo({
+      url: '../detail/detail',
+    })
+
+  },
   bindViewTap1: function() {
     wx.navigateTo({
       url: '../news/news'

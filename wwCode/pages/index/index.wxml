@@ -95,7 +95,7 @@
                     <text class="tj-name">爆款推荐</text>
                   </view>
                   <block wx:for="{{bursting}}" wx:for-item="item" wx:key="key">
-                  <view class="item2 test1">
+                  <view class="item2 test1" bindtap='toDetail'>
                     <text class="item-title">爆款</text>
                     <image src='{{item.DefaultPicSrc}}'></image>
                     <text class="ProductName">{{item.ProductSlogan}}</text>

@@ -43,7 +43,6 @@
   "CustomProperties": {},
   "baseanonymous": 0
 }]
-
 module.exports = {
   shopLis: shopLis
 }
