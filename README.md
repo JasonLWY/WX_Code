@@ -9,9 +9,6 @@
   文档提示
  ```
 #### 本地资源无法通过WXSS获取background-image：可以使用网络图片，或者 base64，或者使用'<image/>'标签
- 
- ![login](http://114.215.91.58/Blog//static/userImages/20180517/1526551343154048509.jpg) 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![引用本地图片](http://wx4.sinaimg.cn/orj360/a8bf8822ly1frfa7n7y37j208w0fsglz.jpg)
   
 #### 小程序（友茶道）销售项目
 
