@@ -37,11 +37,61 @@
                     <image src='{{item}}'></image>
                     </block>
                 </view> 
-                
             </view>
             <!--end  -->
+            <!--用户评论   -->
+            <view class="userDiscuss">
+              <view class="Detail-title">
+                   <text class="red"></text>          
+                   <text class="Detail-title-name">用户评论(55)</text>
+                   <text class="getMore"> >>查看更多</text>
+                </view>
+            </view>
+            <view class="disList">
+              <view class="dis-item">
+                  <view class="disList-top">
+                     <image src='http://img.tea7.com/0030706_0.jpeg?x-oss-process=image/resize,w_150'></image>
+                     <text class="name">行者林银</text>
+                  </view>
+                  <view class="word" style='white-space: pre-line;'>
+                    茶之余香诱惑你我！喝完以后余香有在！太好喝了
+                    茶之余香诱惑你我！喝完以后余香有在！太好喝了
+                    茶之余香诱惑你我！喝完以后余香有在！太好喝了
+                    茶之余香诱惑你我！喝完以后余香有在！太好喝了
+                  </view>
+                  <view class="time">
+                     <text>2018-05-28 18:51</text>
+                  </view>
+              </view>
+              <view class="dis-item">
+                  <view class="disList-top">
+                     <image src='https://avatar.csdn.net/E/E/4/3_tianshuhao.jpg'></image>
+                     <text class="name">优秀读书人</text>
+                  </view>
+                  <view class="word" style='white-space: pre-line;'>
+                    茶之余香诱惑你我！喝完以后余香有在！太好喝了
+                    茶之余香诱惑你我！喝完以后余香有在！太好喝了
+                    茶之余香诱惑你我！喝完以后余香有在！太好喝了
+                  </view>
+                  <view class="time">
+                    <text>2018-05-28 18:51</text>
+                  </view>
+              </view>
+            </view>
+            <!--end  -->
+            <view class="nothing"> </view>  
+
         </view>
       </scroll-view>
     </view>
   </view>     
 </scroll-view>
+  <view class="bar-fixed"> 
+    <view class="bar-left">
+      <view class="line">客服</view>
+      <view class="shop">购物车</view>
+      <view class="collect">收藏</view>
+    </view>
+    <view class="jiesuan" bindtap='showItem'>立即购买</view>
+    <view class="jiesuan2" bindtap='showItem'>加入购物车</view>
+  </view>

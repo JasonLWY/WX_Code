@@ -89,11 +89,119 @@
 }
 .Detail-list {
   width: 100%;
+  background-color: rgba(	240,255,240,0.4);
+  position: relative;
 }
 .Detail-list image {
   display: block;
-  /* width: 100%; */
   padding-left: 66rpx;
-
 }
 /*end  */
+/*用户评论  */
+.userDiscuss {
+  width: 100%;
+  margin-top: 42rpx;
+}
+.getMore{
+  display: inline-block;
+  position: absolute;
+  right: 10rpx;
+  font-size: 28rpx;
+  color: grey;
+  padding-top:5rpx;
+}
+.dis-item {
+  width: 730rpx;
+  height: auto;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+.disList-top {
+  position: relative;
+
+}
+.disList-top image {
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+}
+.name {
+  display: inline-block;
+  font-size: 30rpx;
+  color: darkgray;
+  /* padding: 0rpx 20rpx 0 20rpx;p */
+  position: absolute;
+  left: 96rpx;
+  top: 10rpx;
+}
+.word {
+  font-size: 30rpx;
+  color: #666;
+  word-break: break-all;
+  padding: 0 10rpx
+}
+.time {
+  position: relative;
+  height: 66rpx;
+}
+.time text{
+  font-size: 26rpx;
+  color: #666;
+  position: absolute;
+  right: 30rpx;
+  bottom: 0rpx;
+}
+/*end  */
+.nothing {
+  width: 100%;
+  height: 120rpx;
+}
+
+/*fixed  */
+  .bar-fixed{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 96rpx;
+  background: #ffffff;
+  z-index: 999;
+  border-top: 1px solid #CCCCCC;
+}
+.jiesuan{
+  float: right;
+  height: 100%;
+  width: 226rpx;
+  background-color: red;
+  line-height: 113rpx;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32rpx;
+}
+.jiesuan2 {
+  float: right;
+  height: 100%;
+  width: 226rpx;
+  background-color: #FF7733;
+  line-height: 113rpx;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32rpx;
+}
+.bar-left {
+  float: left;
+  width: 285rpx;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+.bar-left view {
+  flex: 1;
+  color: #222;
+  font-size: 30rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
+/*end  */
+
