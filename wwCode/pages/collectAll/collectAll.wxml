@@ -28,7 +28,7 @@
 <view class="scroll_box2">
   <scroll-view class="scroll-view_y" scroll-y style="width: auto;overflow:hidden;">
      <view class="item_list2">
-          <view class="body">
+          <view class="body" bindtap='toDetail'>
             <view class="img"> 
                 <image src='http://img.tea7.com/0052230_0.jpeg?x-oss-process=image/resize,w_300'></image>
             </view>
@@ -39,7 +39,7 @@
               <text class="price">¥68.00</text>
             </view>
         </view> 
-        <view class="body">
+        <view class="body" bindtap='toDetail'>
           <view class="img"> 
               <image src='http://img.tea7.com/0052195_0.jpeg?x-oss-process=image/resize,w_300'></image>
           </view>
@@ -50,7 +50,7 @@
             <text class="price">¥68.00</text>
           </view>
         </view> 
-        <view class="body">
+        <view class="body" bindtap='toDetail'>
           <view class="img"> 
               <image src='http://img.tea7.com/0004722_0.jpeg?x-oss-process=image/resize,w_300'></image>
           </view>
@@ -61,7 +61,7 @@
             <text class="price">¥68.00</text>
           </view>
         </view> 
-        <view class="body">
+        <view class="body" bindtap='toDetail'>
           <view class="img"> 
               <image src='http://img.tea7.com/0011233_0.jpeg?x-oss-process=image/resize,w_300'></image>
           </view>
@@ -72,7 +72,7 @@
             <text class="price">¥68.00</text>
           </view>
         </view> 
-        <view class="body">
+        <view class="body" bindtap='toDetail'>
           <view class="img"> 
               <image src='http://img.tea7.com/0068091_0.jpeg?x-oss-process=image/resize,w_300'></image>
           </view>
@@ -83,7 +83,7 @@
             <text class="price">¥68.00</text>
           </view>
         </view> 
-        <view class="body">
+        <view class="body" bindtap='toDetail'>
             <view class="img"> 
                 <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
             </view>
@@ -94,7 +94,7 @@
               <text class="price">¥68.00</text>
             </view>
          </view> 
-          <view class="body">
+          <view class="body" bindtap='toDetail'>
             <view class="img"> 
                 <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
             </view>
@@ -105,7 +105,7 @@
               <text class="price">¥68.00</text>
             </view>
          </view> 
-          <view class="body">
+          <view class="body" bindtap='toDetail'>
             <view class="img"> 
                 <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
             </view>
@@ -116,7 +116,7 @@
               <text class="price">¥68.00</text>
             </view>
          </view> 
-          <view class="body">
+          <view class="body" bindtap='toDetail'>
             <view class="img"> 
                 <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
             </view>
@@ -127,7 +127,7 @@
               <text class="price">¥68.00</text>
             </view>
          </view> 
-          <view class="body">
+          <view class="body" bindtap='toDetail'>
             <view class="img"> 
                 <image src='http://img.tea7.com/0004717_0.jpeg?x-oss-process=image/resize,w_300'></image>
             </view>

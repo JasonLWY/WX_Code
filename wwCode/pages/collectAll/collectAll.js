@@ -11,7 +11,11 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-
+  toDetail: function () {
+    wx.navigateTo({
+      url: '../detail/detail',
+    })
+  },
   notouchme : function() {
     wx.showModal({
       title: '提示',

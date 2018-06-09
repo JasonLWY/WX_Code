@@ -205,3 +205,62 @@
 }
 /*end  */
 
+/*Ylove  */
+.Ylove {
+  width: 100%;
+}
+.Ylove-list{
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(	245,255,245,0.8);
+}
+.Ylove-list-item {
+  float: left;
+  width: 350rpx;
+  height: 577rpx;
+  background-color: #ffffff;
+  margin-left:15rpx;
+  margin-bottom: 15rpx;
+}
+.Ylove-list-item image {
+  display: block;
+  width: 340rpx;
+  height: 340rpx;
+  /* padding: 10rpx; */
+  padding-left:5rpx;
+}
+
+.Ylove-look text{
+    width: 70%;
+    padding: 2px;
+    margin: 24rpx auto 5px;
+    background: #cc9900;
+    color: #fff;
+    border-radius: 10rpx;
+    display: block;
+    font-size: 26rpx;
+    text-align:center;
+}
+.Ylove-title {
+  text-align: center;
+  font-size: 32rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.Ylove-des {
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  color: #999;
+  font-size: 28rpx;
+}
+.Price {
+  color: red;
+}
+.nothing1 {
+  width: 100%;
+  height: 99rpx;
+}
+/*end  */

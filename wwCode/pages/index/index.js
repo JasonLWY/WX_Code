@@ -36,6 +36,18 @@ Page({
       url: '../search/search',
     })
   },
+  TocollectAll: function () {
+    wx.navigateTo({
+      url: '../collectAll/collectAll',
+    })
+  },
+  topColl:function(){
+    // wx.nav
+    wx.switchTab({
+      url: '../collect/collect',
+    })
+
+  },
   notouchme: function(){
     wx.showModal({
       title: '提示',

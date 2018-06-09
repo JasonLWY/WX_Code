@@ -1,7 +1,7 @@
 // pages/detail/detail.js
 
 const detailData = require('../data/detail.js');
-
+const shopList = require('../data/shop.js');
 Page({
 
   /**
@@ -19,7 +19,9 @@ Page({
               'http://imgcon.tea7.com/6365948644838432649771252.jpg',
               'http://imgcon.tea7.com/6365948644743119081929333.jpg',
               'http://imgcon.tea7.com/6365948644564991942272144.jpg'  
-            ] 
+            ],
+
+    shopList:[]        
   },
 
   /**
@@ -29,7 +31,8 @@ Page({
       var _that = this;
       _that.setData({
         detail: detailData.detail,
-        imgs: detailData.detail[0].PictureUrl
+        imgs: detailData.detail[0].PictureUrl,
+        shopList: shopList.shopLis
       })
   },
 

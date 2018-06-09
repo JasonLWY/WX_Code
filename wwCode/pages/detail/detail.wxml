@@ -79,9 +79,32 @@
               </view>
             </view>
             <!--end  -->
-            <view class="nothing"> </view>  
+            <!-- <view class="nothing"> </view>   -->
+            <!-- Ylove -->
+            <view class="Ylove">
+                 <view class="Detail-title">
+                   <text class="red"></text>          
+                   <text class="Detail-title-name">商品详情</text>
+                </view>
 
-        </view>
+                <view class="Ylove-list">
+                     <block wx:for="{{shopList}}" wx:for-item="item" wx:key="key">
+                        <view class="Ylove-list-item">
+                          <image src='{{item.CoverPicture}}'></image>
+                          <view class="Ylove-title">{{item.Name}}</view>
+                          <view class="Ylove-des">{{item.Slogan}}</view>
+                          <view class="Ylove-des Price">￥{{item.Price}}元</view>
+                          <view class="Ylove-look">
+                            <text>查看详情</text>
+                          </view>
+                        </view>
+                      </block>
+                               
+                </view>
+            </view>
+            <!--end  -->
+             <view class="nothing1"></view>    
+        </view> 
       </scroll-view>
     </view>
   </view>     

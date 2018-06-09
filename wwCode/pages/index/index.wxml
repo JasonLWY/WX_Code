@@ -8,23 +8,23 @@
     <view class="scroll_box"> 
         <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
           <view class="item_list">
-            <view class="item_book_text select">龙井</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
-            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
-            <view class="item_book_text" bindtap='notouchme'>龙井</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
-            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
-            <view class="item_book_text" bindtap='notouchme'>龙井</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
-            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
-            <view class="item_book_text" bindtap='notouchme'>龙井</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
-            <view class="item_book_text" bindtap='notouchme'>碧螺春</view>
-            <view class="item_book_text" bindtap='notouchme'>龙井</view>
-            <view class="item_book_text" bindtap='notouchme'>黄山毛峰</view>
+            <view class="item_book_text select" bindtap='TocollectAll'>龙井</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='TocollectAll'>碧螺春</view>
+            <view class="item_book_text" bindtap='TocollectAll'>龙井</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='TocollectAll'>碧螺春</view>
+            <view class="item_book_text" bindtap='TocollectAll'>龙井</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='TocollectAll'>碧螺春</view>
+            <view class="item_book_text" bindtap='TocollectAll'>龙井</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
+            <view class="item_book_text" bindtap='TocollectAll'>碧螺春</view>
+            <view class="item_book_text" bindtap='TocollectAll'>龙井</view>
+            <view class="item_book_text" bindtap='TocollectAll'>黄山毛峰</view>
             <view class="item_book_text" style='width:10rpx; height:100%;'></view>
           </view>
         </scroll-view>
@@ -38,7 +38,7 @@
               <swiper indicator-dots="{{indicatorDots}}"
                 autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
                 <block wx:for="{{imgUrls}}" wx:key="key">
-                  <view bindtap='notouchme'>
+                  <view bindtap='TocollectAll'>
                     <swiper-item>
                       <image src="{{item}}" class="slide-image" style="height:322rpx; width:750rpx;"/>
                     </swiper-item>
@@ -48,23 +48,23 @@
             </view>
             <!--类型  -->
               <view class="Type"> 
-                <view>
+                <view bindtap='topColl'>
                   <image src="http://imgcon.tea7.com/6363743876200428263577206.png"></image>
                   <text>自饮茶</text>
                 </view>
-                 <view>
+                 <view bindtap='topColl'>
                   <image src="http://imgcon.tea7.com/6363743876136364412448843.png"></image>
                   <text>茶具</text>
                 </view>
-                 <view>
+                 <view bindtap='topColl'>
                   <image src="http://imgcon.tea7.com/6363743876164490164235224.png"></image>
                   <text>茶礼盒</text>
                 </view>
-                 <view>
+                 <view bindtap='topColl'>
                   <image src="http://imgcon.tea7.com/6363743876147303652949610.png"></image>
                   <text>领福利</text>
                 </view>
-                 <view>
+                 <view bindtap='topColl'>
                   <image src="http://imgcon.tea7.com/6366085324327706652770939.png"></image>
                   <text>优惠卷</text>
                 </view>
@@ -76,7 +76,7 @@
                 </view>
                 <view class="wrap-list">
                   <block wx:for="{{img}}" wx:key="key">
-                    <view class="Item" bindtap='notouchme'>
+                    <view class="Item" bindtap='topColl'>
                       <text class="TJ-item-title">专辑</text>
                       <image src='{{item}}' class="TJimage"></image>
                     </view>
@@ -118,7 +118,7 @@
                   <view class="item_list nav-list">
                     <!-- <view class="item_book_text select">龙井</view> -->
                     <block wx:for="{{navList}}" wx:key="{{key}}" wx:for-item="item">
-                    <view class="item_book_text nav-item" bindtap='notouchme'>
+                    <view class="item_book_text nav-item" bindtap='toDetail' >
                         <image src='{{item.DefaultPicSrc}}'></image>
                         <text class="des">{{item.ProductName}}</text>
                         <text class="navPrice">￥{{item.Price}}元</text>
@@ -135,7 +135,7 @@
                   </view>
                   <view class="item_list2">
                     <block wx:for="{{loveList}}" wx:for-item="item" wx:key="key">
-                      <view class="body">
+                      <view class="body" bindtap='toDetail'>
                         <view class="img"> 
                             <image src='{{item.DefaultPicSrc}}'></image>
                         </view>
