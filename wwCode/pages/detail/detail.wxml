@@ -26,6 +26,20 @@
               <view class="Price">￥{{item.Price}}元</view>
             </view>
 
+            <!--商品详情  -->
+            <view class="shopDetail">
+                <view class="Detail-title">
+                   <text class="red"></text>          
+                   <text class="Detail-title-name">商品详情</text>
+                </view>
+                <view class="Detail-list">
+                    <block wx:for="{{imgUrl}}" wx:for-item="item" wx:key="key">
+                    <image src='{{item}}'></image>
+                    </block>
+                </view> 
+                
+            </view>
+            <!--end  -->
         </view>
       </scroll-view>
     </view>

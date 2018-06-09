@@ -65,3 +65,35 @@
   text-align: center;
   z-index: 2;
 }
+
+/*商品详情  */
+.shopDetail{
+  width: 100%;
+  margin-top: 66rpx;
+}
+.Detail-title {
+  width: 100%;
+  height: 100rpx;
+}
+.red {
+  display: inline-block;
+  height: 30rpx;
+  width: 8rpx;
+  background-color: red;
+  margin-left: 20rpx;
+}
+.Detail-title-name {
+  font-size: 30rpx;
+  font-weight: bold;
+  padding-left: 16rpx;
+}
+.Detail-list {
+  width: 100%;
+}
+.Detail-list image {
+  display: block;
+  /* width: 100%; */
+  padding-left: 66rpx;
+
+}
+/*end  */

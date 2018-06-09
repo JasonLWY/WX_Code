@@ -14,7 +14,12 @@ Page({
     autoplay: true,
     interval: 3000,
     duration: 1000,
-    circular: true, 
+    circular: true,
+    imgUrl: ['http://imgcon.tea7.com/6365948644527491413086708.jpg',
+              'http://imgcon.tea7.com/6365948644838432649771252.jpg',
+              'http://imgcon.tea7.com/6365948644743119081929333.jpg',
+              'http://imgcon.tea7.com/6365948644564991942272144.jpg'  
+            ] 
   },
 
   /**
