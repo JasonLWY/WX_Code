@@ -20,6 +20,7 @@
 .swiperM{
   width: 100%;
   height: 750rpx;
+  position: relative;
 }
 .swiperM swiper {
   width: 100%;
@@ -37,7 +38,6 @@
 .des-title {
   width: 100%;
   font-size: 37rpx;
-  height:125rpx;
   line-height:53rpx;
   padding: 20rpx 0 0 10rpx;
 }
@@ -51,4 +51,17 @@
   padding: 10rpx 0 0 6rpx;
   color: #b0352f;
   
+}
+.num {
+  display: inline-block;
+  width: 66rpx;
+  height: auto;
+  background-color: rgba(0, 0, 0, .3);
+  font-size: 26rpx;
+  position: absolute;
+  bottom: 34rpx;
+  right: 22rpx;
+  color: #ffffff;
+  text-align: center;
+  z-index: 2;
 }

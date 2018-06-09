@@ -8,15 +8,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
     detail:[],
     imgs:[],
-    indicatorDots: true,
+    // indicatorDots: true,
     autoplay: true,
     interval: 3000,
     duration: 1000,
     circular: true, 
-
   },
 
   /**
